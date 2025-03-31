@@ -1,0 +1,100 @@
+Here’s a detailed prompt for creating a system that allows users to upload an image, transform it into Studio Ghibli-style art, and download the result:
+
+---
+
+### **Prompt: Build a Ghibli Art Transformation Tool**
+
+**Requirements:**
+
+1. **Image Upload Functionality:**
+   - Allow users to upload images in common formats like JPG, PNG, or GIF.
+   - Ensure the uploaded image meets size and resolution limits (e.g., under 2MB and 4000x4000px) to avoid performance issues[1][2].
+   - Validate file types and sizes during upload to prevent errors.
+
+2. **Studio Ghibli Art Transformation:**
+   - Integrate an AI-based image transformation tool capable of converting images into Studio Ghibli-style art.
+   - Options include:
+     - Using tools like FlexClip, Getimg.ai, or MidJourney for seamless Ghibli-style transformations[3][4][8].
+     - Provide customization options where users can refine the style or intensity of the transformation.
+
+3. **Image Download Feature:**
+   - Enable users to download the transformed image in their preferred format (e.g., JPG or PNG).
+   - Include a visible "Download" button after the transformation process is complete[5][6][9].
+
+4. **User Interface:**
+   - Create a user-friendly interface with clear instructions:
+     - Step 1: Upload an image.
+     - Step 2: Click "Transform" to apply the Ghibli style.
+     - Step 3: Preview the result and download it.
+   - Add progress indicators during upload and transformation processes.
+
+5. **Backend Workflow:**
+   - Use secure APIs for image uploads and transformations (e.g., Cloudflare’s Direct Creator Upload for secure handling)[2].
+   - Store temporary files securely and delete them after processing to maintain privacy.
+
+6. **Optional Features:**
+   - Allow users to share their Ghibli-style images directly on social media platforms.
+   - Provide basic editing tools (e.g., cropping or adjusting colors) before or after transformation[8].
+
+**Implementation Tools and Frameworks:**
+- Frontend: React, Vue.js, or any modern JavaScript framework for responsive UI.
+- Backend: Node.js, Python (Flask/Django), or similar frameworks for handling uploads and API calls.
+- AI Integration: Use APIs from platforms like Getimg.ai, DeepAI, or FlexClip for Ghibli-style transformations[3][8].
+- File Storage: Use cloud storage services like AWS S3 or Cloudflare R2 for temporary file handling.
+
+**Outcome:**  
+A web-based tool where users can upload an image, transform it into a Studio Ghibli-inspired artwork using AI, and download the result effortlessly.
+
+Citations:
+[1] https://help.marq.com/image-upload-requirements
+[2] https://developers.cloudflare.com/images/upload-images/direct-creator-upload/
+[3] https://www.ndtv.com/world-news/studio-ghibli-chatgpt-miyazaki-how-to-create-studio-ghibli-inspired-images-for-free-without-chatgpt-8037789
+[4] https://timesofindia.indiatimes.com/etimes/trending/how-to-create-ghibli-portraits-if-you-dont-have-chatgpt-plus/articleshow/119575774.cms
+[5] https://community.cloudflare.com/t/r2-and-image-transformations-download/655855
+[6] https://supsystic.com/documentation/how-to-allow-users-to-download-gallery-images/
+[7] https://wpforms.com/users-submit-images-to-wordpress/
+[8] https://www.flexclip.com/tools/photo-to-ghibli-style/
+[9] https://forum.bubble.io/t/user-downloading-an-image/234423
+[10] https://chromewebstore.google.com/detail/image-downloader-imageye/agionbommeaifngbhincahgmoflcikhm
+[11] https://stackoverflow.com/questions/72325497/allow-user-to-upload-change-profile-image-from-a-default-image-in-php
+[12] https://www.w3schools.com/tags/att_input_accept.asp
+[13] https://support.submit.shutterstock.com/s/article/What-are-the-technical-requirements-for-images?language=en_US
+[14] https://imagekit.io/blog/how-to-upload-files-in-html/
+[15] https://www.servicenow.com/docs/bundle/washingtondc-platform-security/page/administer/security/reference/enforce-strict-user-image-upload.html
+[16] https://stackoverflow.com/questions/60203320/inserting-and-using-the-user-uploaded-image-in-html-and-javascript
+[17] https://community.thunkable.com/t/how-to-allow-user-to-upload-document-or-picture/1794950
+[18] https://www.reddit.com/r/webdev/comments/17ld1d0/whats_the_simplest_way_to_allow_users_of_my_site/
+[19] https://community.glideapps.com/t/allow-users-to-upload-and-display-image-s/64344
+[20] https://www.cnbctv18.com/technology/chatgpt-studio-ghibli-art-social-media-how-to-create-ghibli-images-gpt-4o-model-19580461.htm
+[21] https://www.ndtv.com/world-news/how-to-create-studio-ghibli-style-ai-images-on-chatgpt-for-free-8029848
+[22] https://www.hindustantimes.com/india-news/ghiblistyle-ai-images-how-to-create-portraits-with-grok-3-subscribe-to-chatgpt-know-more-about-studio-ghibli-101743226499108.html
+[23] https://www.instagram.com/wanderingminds_india/reel/DHxYRg_IcSu/
+[24] https://www.instagram.com/prernabhardwaj/reel/DHv9By9TnkT/
+[25] https://community.adobe.com/t5/lightroom-classic-discussions/p-synchronizing-quot-auto-quot-transforms-across-many-images-and-quot-update-quot/td-p/8608773
+[26] https://support.photobiz.com/blog-post/how-can-i-provide-image-downloads-for-my-customers
+[27] https://community.shopify.com/c/shopify-discussions/how-do-i-allow-customers-to-download-images-off-my-webstore/m-p/1976824
+[28] https://www.reddit.com/r/webdev/comments/181lpoo/download_image_to_users_file_system_and_user_can/
+[29] https://www.e-shot.net/insights/help/automatic-image-download
+[30] https://stackoverflow.com/questions/14679955/providing-user-a-image-download-with-javascript
+[31] https://discuss.pytorch.org/t/save-transformed-resized-images-after-dataloader/56464
+[32] https://play.google.com/store/apps/details?id=canhtechdevelopers.imagedownloader
+[33] https://docs.astro.build/en/guides/images/
+[34] https://community.cloudflare.com/t/how-can-i-provide-user-friendly-image-download-urls/483953
+[35] https://learn.microsoft.com/en-us/answers/questions/1069236/how-to-allow-image-download-automatically-in-offic
+[36] https://www.w3schools.com/php/php_file_upload.asp
+[37] https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept
+[38] https://www.sitepoint.com/community/t/best-way-to-accept-image-files-submitted-by-users/342347
+[39] https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html
+[40] https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file
+[41] https://timesofindia.indiatimes.com/technology/tech-news/how-to-create-ghibli-style-portraits-without-paying-for-chatgpt-plus/articleshow/119581346.cms
+[42] https://economictimes.com/news/new-updates/ghibli-art-magic-unlocked-how-to-create-ghibli-portraits-with-other-ai-tools-if-you-dont-have-chatgpt-plus/articleshow/119585902.cms
+[43] https://reface.ai/unboring/features/studio-ghibli-filter
+[44] https://getimg.ai/models/ghibli-diffusion
+[45] https://www.fotor.com/features/studio-ghibli-filter/
+[46] https://cloudinary.com/guides/web-performance/5-ways-to-import-images-in-react-bonus-automation-method
+[47] https://www.promptcloud.com/blog/top-5-bulk-image-downloaders-in-2024-a-comprehensive-guide/
+[48] https://stackoverflow.com/questions/47849436/save-image-after-transformations-have-been-applied-with-glide
+[49] https://chromewebstore.google.com/detail/image-downloader/cnpniohnfphhjihaiiggeabnkjhpaldj
+
+---
+Answer from Perplexity: pplx.ai/share
